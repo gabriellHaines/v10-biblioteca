@@ -10,6 +10,9 @@
         if (isset($_POST[""])) {
             require("");
         }
+        if (isset($_POST["sair"])) {
+            require_once("../app/bSair.php");
+        }
         if (isset($_POST["lPesquisa"])) {
             header("location:./fPesquisaLivro.php");
         }
@@ -22,6 +25,7 @@
         if (isset($_POST["cAutor"])) {
             header("location:./cAutor.php");
         }
+        
     ?>
     <div class="full">
         <div>
@@ -41,6 +45,9 @@
                     </button>
                     <button name = "cAutor">
                         cadastar autor
+                    </button>
+                    <button name = "sair">
+                        sair
                     </button>
                 </div>
             </form>
