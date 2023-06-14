@@ -8,7 +8,7 @@
     <?php
 
         if (isset($_POST["cadastrar"])) {
-            require("");
+            require("../app/cAutor.php");
         }
         if (isset($_POST["voltar"])) {
             header("location:./iFuncionario.php");

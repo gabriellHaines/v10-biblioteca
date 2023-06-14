@@ -1,12 +1,12 @@
         <title>Login</title>
-        <link rel="stylesheet" href="./css/cUsuario.css">
+        <link rel="stylesheet" href="../css/login.css">
     </head>
     
     <body>
         <?php
         
             if (isset($_POST["cadastrar"])) {
-                require("");
+                require("../app/cUsuario.php");
             }
             if (isset($_POST["login"])) {
                 header("location:../index.php");
