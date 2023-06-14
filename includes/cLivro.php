@@ -1,14 +1,14 @@
         <title>
             Cadastro de livro
         </title>
-
+        <link rel="stylesheet" href="../css/login.css">
     </head>
 
     <body>
         <?php
 
             if (isset($_POST["cadastar"])) {
-                require("");
+                require("../app/cLivro.php");
             }
             if (isset($_POST["votar"])) {
                 header("location:./iFuncionario.php");
@@ -31,11 +31,12 @@
                             placeholder = "Digite onome da obra" 
                             name= "nome"
                         >
-                        <input 
-                            type = "text" 
-                            placeholder = "Digite o nome do autor" 
-                            name= "autor"
-                        >
+                        <div>
+                            <label>Nome do Autor</label>
+                            <?php
+                                require_once("../app/sAutor.php");
+                            ?>
+                        </div>
                         <input 
                             type = "text" 
                             placeholder = "Digite a edição" 
