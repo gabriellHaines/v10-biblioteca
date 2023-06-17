@@ -7,9 +7,7 @@
 <body>
 <?php
 
-    if (isset($_POST["pesquisar"])) {
-        require("");
-    }
+    
     if (isset($_POST["voltar"])) {
         header("location:./iFuncionario.php");
     }
@@ -44,4 +42,29 @@
                 </button>
             </div>
         </form>
+        <div>
+            <table >
+                <tr>
+                    <th>codigo</th>
+                    <th>nome</th>
+                    <th>nome autor</th>
+                    <th>edicao</th>
+                    <th>editora</th>
+                    <th>ano</th>
+                    <th>numPagina</th>
+                    <th>Alterar</th>
+                    <th>Excluir</th>
+
+                </tr>
+                <?php
+                    
+                    if (isset($_POST["pesquisar"])) {
+                        require("../app/fPLivro.php");
+                    }else{
+                        require_once('../app/fPLivro.php');   
+                    }
+                    
+                ?>
+            </table>
+        </div>
     </div>

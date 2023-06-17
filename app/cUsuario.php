@@ -20,7 +20,7 @@
                 echo 'ERRO INSERT: ' . mysqli_error($con);
             } 
             mysqli_close($con);
-            header("location:./index.php");  
+            header("location:../index.php");  
         }else{
             echo "usuario já cadastrado, tente outro";
         }            
