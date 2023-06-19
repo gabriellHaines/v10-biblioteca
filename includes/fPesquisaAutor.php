@@ -40,13 +40,11 @@
         <div>
             <table >
                 <tr>
-                    <th>codigo</th>
                     <th>nome</th>
-                    <th>nome autor</th>
-                    <th>edicao</th>
-                    <th>editora</th>
-                    <th>ano</th>
-                    <th>numPagina</th>
+                    <th>data de nascimento</th>
+                    <th>nacionalidade</th>
+                    <th>descrição</th>
+                    <th>foto</th>
                     <th>Alterar</th>
                     <th>Excluir</th>
 
@@ -56,7 +54,7 @@
                     if (isset($_POST["pesquisar"])) {
                         require("../app/aPesquisa.php");
                     }else{
-                        require_once('../app/aPesquisa.php');   
+                        require_once('../app/fPAAll.php');   
                     }
                     
                 ?>

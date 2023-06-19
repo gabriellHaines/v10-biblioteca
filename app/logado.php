@@ -8,5 +8,7 @@
     if (empty($id)) {
         header('location:../index.php');
     }
-
+    echo "<label class='label'>";
+    echo  ' bem vindo , '.$nome ;                           
+    echo "</label>";
 ?>

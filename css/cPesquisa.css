@@ -1,0 +1,129 @@
+body{
+    background-color: #f2f2f2;
+}
+.full {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.div {
+    display: flex;
+    align-items: center;
+}
+.label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+.nav .form {
+    display: flex;
+}
+.nav .form .button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+.nav .form .button[name="sair"]:hover {
+    background-color: #e74c3c;
+  }
+.div .form .label,
+.div .form .input {
+  margin-bottom: 10px;
+}
+.div .form .input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+    .div .form .button[name="pesquisar"] {
+    background-color: #2196f3;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.tr {
+    background-color: #f8f8f8;
+}
+.th {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .th {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }

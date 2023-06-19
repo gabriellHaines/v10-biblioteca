@@ -61,7 +61,7 @@
                     if (isset($_POST["pesquisar"])) {
                         require("../app/fPLivro.php");
                     }else{
-                        require_once('../app/fPLivro.php');   
+                        require_once('../app/fPLAll.php');   
                     }
                     
                 ?>

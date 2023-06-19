@@ -17,21 +17,29 @@
             <div>
                 <form method="post">
                     <div class="form">
-                        <label>Entrar na Biblioteca Online</label>
+                        <label class="label">Entrar na Biblioteca Online</label>
                         <input 
                             type = "text" 
                             placeholder = "Digite seu usuário" 
                             name= "usuario"
+                            class="input"
                         >
                         <input 
                             type="password"
                             placeholder="Digite sua senha"
                             name = "senha"
+                            class="input"
                         >
-                        <button name = "entrar">
+                        <button 
+                            name = "entrar"
+                            class="button"    
+                        >
                             Entrar
                         </button>
-                        <button name = "cadastrar">
+                        <button 
+                            name = "cadastrar"
+                            class="buttonCadastrar"
+                        >
                             Criar nova conta
                         </button>
                     </div>
